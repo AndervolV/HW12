@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Author author1 = new Author("Иван Фомич");
-        Author author2 = new Author("Левитан Моисеевич");
+        Author author1 = new Author("Иван", "Фомич");
+        Author author2 = new Author("Левитан", "Моисеевич");
 
         Book book1 = new Book("Смеёмся и плачем", author1, 2000);
         Book book2 = new Book("Создавая области памяти", author2, 2030);
